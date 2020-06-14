@@ -1,5 +1,8 @@
 body {
-    color: #2c3e50;
+    /* color: #2c3e50; */
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 @keyframes fadeIn {
@@ -21,11 +24,65 @@ body {
     animation: fadeIn 0.5s linear;
 }
 
-.form,
-.greetngs{
+.weather-div {
+    margin-top: 20px;
+    margin-left: 1150px;
+}
+.js-weather {
+    font-size: 25px;
+}
+
+.js-clock {
+    font-size: 45px;
+    margin-left: 435px;
+}
+
+.name-div {
+    margin-left: 570px;
+}
+
+.form {
     display: none;
+}
+
+.nameinput {
+    color: white;
+    width: 250px;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    outline-color: white;
+    background-color: transparent;
+}
+
+.greetngs {
+    display: none;
+    
 }
 
 .showing {
     display: block;
+    font-size: 30px;
+}
+
+.todo-div {
+    margin-left: 570px;
+}
+
+.todoinput {
+    color: white;
+    width: 250px;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    outline-color: white;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.js-toDoList {
+    font-size: 25px;
 }
