@@ -46,7 +46,6 @@ body {
 }
 
 .nameinput {
-    color: white;
     width: 250px;
     height: 30px;
     font-size: 25px;
@@ -70,7 +69,6 @@ body {
 }
 
 .todoinput {
-    color: white;
     width: 250px;
     height: 30px;
     font-size: 25px;
